@@ -1,0 +1,111 @@
+/* Impoortacion de la fuente montserrat y de la los iconos de bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Creacion de variables de entorno de colores entregados para el proyecto */
+
+:root {
+    --verde-bosque: #1A5126;
+    --verde-claro: #8FBF5F;
+    --azul-claro: #5CB3FF;
+    --beige: #F3E9DC;
+    --marron-tierra: #B18F6A;
+    --blanco: #FFFFFF;
+}
+
+/* Restablecer los valores predeterminados del css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    ;
+}
+
+.header {
+    background-color: var(--verde-bosque);
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+#back {
+    background-image: url(../../public/img/imagen1.webp);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.front{
+    padding: 40% 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--blanco);
+    
+}
+p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+main {
+    background-color: var(--beige);
+}
+.infor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#parque{
+    display: flex;
+    flex-direction: row;
+    
+}
+h3{
+    color: var(--verde-bosque);
+}
+h4{
+    color: var(--verde-bosque);
+
+}
+.textnorma{
+    color: var(--verde-bosque);
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction:center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    max-height: 500px;
+    background-color: var(--verde-claro);
+    border-radius: 40px;
+}
+.wra{
+    width: 30%;
+    display: flex;
+    flex-direction:center;
+    flex-wrap: wrap;
+}
