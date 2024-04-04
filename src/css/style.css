@@ -47,17 +47,19 @@ ul {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-.front{
+
+.front {
     padding: 40% 20%;
     display: flex;
     align-items: center;
     flex-direction: column;
     color: var(--blanco);
-    
+
 }
-p{
+
+p {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -67,45 +69,104 @@ p{
 main {
     background-color: var(--beige);
 }
-.infor{
+.description{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 40%;
 }
-#parque{
+
+
+#parques {
     display: flex;
     flex-direction: row;
-    
+    padding: 30px 20px;
+    justify-content: space-around;
+    gap: 50px;
 }
-h3{
+#jardines{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px;
+    justify-content: space-around;
+    gap: 50px;
+}
+image{
+    margin: 10px;
+}
+.img-top{
+    width: 900px;
+    height: 500px;
+}
+.img{
+    width: 445px;
+}
+.two-img{
+   gap: 10px;
+    display: flex;
+}
+
+
+
+h3 {
     color: var(--verde-bosque);
 }
-h4{
+
+h4 {
     color: var(--verde-bosque);
 
 }
-.textnorma{
+
+.textnorma {
     color: var(--verde-bosque);
     font-size: x-large;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    text-align: center;
+padding: 30px 180px;
 }
-.contenedor{
+
+.wra {
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.contenedor {
+    background-color: var(--verde-claro);
+    color:var(--blanco) ;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex-direction:center;
-    flex-wrap: wrap;
-    max-width: 200px;
-    max-height: 500px;
-    background-color: var(--verde-claro);
-    border-radius: 40px;
+    text-align: center;
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 60px;
+    padding: 10px 5px;
 }
-.wra{
-    width: 30%;
+
+
+/* text-align: center; */
+
+
+#footer {
     display: flex;
-    flex-direction:center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--blanco);
+    background-color: var(--verde-bosque);
+    padding: 5px 50px;
+
+}
+
+.redes a {
+    color: var(--blanco);
+}
+
+#alcaldia {
+    width: 80px;
 }
